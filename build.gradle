@@ -1,14 +1,30 @@
 plugins {
     id 'java-library'
+    id "io.qameta.allure" version "2.9.6"
+}
+
+allure {
+    report {
+        version.set("2.18.1")
+    }
+    adapter {
+        autoconfigure.set(true)
+        aspectjWeaver.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set("2.18.1")
+            }
+        }
+    }
 }
 
 repositories {
     mavenCentral()
 }
 
+
 dependencies {
-    implementation (
-            'org.junit.jupiter:junit-jupiter:5.8.1',
+    implementation('org.junit.jupiter:junit-jupiter:5.8.1',
             'com.codeborne:selenide:6.4.0')
 
 }

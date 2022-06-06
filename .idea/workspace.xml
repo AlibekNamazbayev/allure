@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba739d08-7e0b-4e8e-847b-1aca779266bf" name="Changes" comment="Connected to allure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/allure/TestWithSteps.java" afterDir="false" />
+    <list default="true" id="ba739d08-7e0b-4e8e-847b-1aca779266bf" name="Changes" comment="created a new test with lambda steps">
+      <change afterPath="$PROJECT_DIR$/src/main/java/allure/AttachmetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,27 +89,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.allure [allureServe]">
-    <configuration name="allure [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="allure [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,6 +152,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AttachmetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allure" />
+      <option name="MAIN_CLASS_NAME" value="allure.AttachmetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestWithSteps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="allure.main" />
       <extension name="coverage">
@@ -191,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.allure [allureServe]" />
-        <item itemvalue="JUnit.TestWithSteps" />
+        <item itemvalue="JUnit.AttachmetTest" />
         <item itemvalue="Gradle.allure [clean]" />
+        <item itemvalue="JUnit.TestWithSteps" />
         <item itemvalue="Gradle.allure [check]" />
-        <item itemvalue="Gradle.allure [allureReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654106021237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created a new test with lambda steps">
+      <created>1654200559334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654200559334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created new project" />
     <MESSAGE value="Connected to allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected to allure" />
+    <MESSAGE value="created a new test with lambda steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a new test with lambda steps" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
